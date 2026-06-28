@@ -125,4 +125,33 @@
 
 </main>
 
+<script>
+    const contactForm = document.getElementById('contact-form');
+    const contactSuccess = document.getElementById('contact-success');
+
+    if (contactForm && contactSuccess) {
+        contactForm.addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            const button = contactForm.querySelector('button[type="submit"]');
+            const originalText = button.innerHTML;
+
+            button.disabled = true;
+            button.innerHTML = 'Sending...';
+
+            setTimeout(() => {
+                contactForm.classList.add('hidden');
+                contactSuccess.classList.remove('hidden');
+
+                button.disabled = false;
+                button.innerHTML = originalText;
+
+                if (window.lucide) {
+                    lucide.createIcons();
+                }
+            }, 800);
+        });
+    }
+</script>
+
 <?php include 'includes/footer.php'; ?>
