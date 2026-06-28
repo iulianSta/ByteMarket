@@ -40,23 +40,23 @@ https://github.com/iulianSta/ByteMarket
 
 (Home)
 
-![Home](screenshots/home.png)
+![Home](assets/images/home.png)
 
 (Shop)
 
-![Shop](screenshots/shop.png)
+![Shop](assets/images/shop.png)
 
 (Product)
 
-![Product](screenshots/product.png)
+![Product](assets/images/product.png)
 
 (Cart)
 
-![Cart](screenshots/cart.png)
+![Cart](assets/images/cart.png)
 
 (Contact)
 
-![Contact](screenshots/contact.png)
+![Contact](assets/images/contact.png)
 
 ---
 
